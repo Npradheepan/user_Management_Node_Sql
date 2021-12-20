@@ -1,0 +1,31 @@
+{
+  "name": "login_management",
+  "version": "1.0.0",
+  "description": "Database login management with psssport hascode.",
+  "main": "server.js",
+  "scripts": {
+    "start": " nodemon server.js"
+  },
+  "author": "pradheepan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.2",
+    "mysql": "^2.18.1",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.13"
+  }
+}
